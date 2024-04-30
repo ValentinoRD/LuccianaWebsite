@@ -4,12 +4,12 @@
 
 
 *{
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
-     font-family: "Nunito Sans", sans-serif;
-     
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
 }
+
 body{
     position: relative;
     padding-bottom: 20em;
@@ -34,8 +34,7 @@ body{
     color: #d90368;
     text-decoration: underline;
     margin-bottom: 20px;
-    font-size: 30px;
-   
+    font-size: 30px;  
 }
 
 .biografia{
@@ -74,30 +73,20 @@ body{
     margin-bottom: 15px;
 }
 
-/* .imagenesHome{
-    width: 300px;
-    height: auto;
-    border: 2px solid;
-    border-color: #000000;
-    border-radius: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 40px;
-} */
+/* MAIN */
 
 
 /* ACA INICIA EL INTENTO DE GALERIA EN EL HOME */
 
-
 .section-home{
-    background-color: #000000;
+    /* background-color: #000000; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,180px);
     grid-template-areas: 
-    "objeto1 objeto2 objeto3"
-    "objeto1 objeto2 objeto3"
-    "objeto1 objeto2 objeto3";
+    "objeto1 objeto3 objeto2"
+    "objeto1 objeto3 objeto2"
+    "objeto1 objeto3 objeto2";
 }
 
 .objetos{
@@ -113,6 +102,7 @@ body{
     background-position: center;
     background-size: cover;
 }
+
 .objeto2{
     grid-area: objeto2;
     background-image: url(../multimedia/techno2.JPG);
@@ -124,16 +114,15 @@ body{
     grid-area: objeto3;
 }
 
+/* TERMINA GALERIA HOME */
 
 
-/* MAIN */
-
-
-/* Header */
+/* HEADER */
 
 header{
     text-align: center;   
     background-color: #d90368;
+    padding-bottom: 1px;
 }
 
 .titulo-principal{
@@ -142,6 +131,7 @@ header{
     padding-bottom: 20px;
     font-size: 40px;
     text-decoration: underline;
+    color: #000000;
 }
 
 
@@ -172,7 +162,7 @@ header a:hover{
 }
 
 
-/* Header */
+/* HEADER*/
 
 
 /* FOOTER */
@@ -229,10 +219,38 @@ legend{
 
 /* DISCOGRAFIA */
 
-.iframe-temas{
-    display: flex;
-    flex-direction: row;
+.jumbotron{
+    background-image: url(../multimedia/ai-generated-8274619_1280.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.h1-discografia{
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 0 0 5px black;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.h2-discografia{
+    text-align: center;
+    background-color: #d90368;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: "Orbitron", sans-serif;
+}
+.h3-discografia{
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
     
+}
+.main-discografia{
+  /*   background-color: black; */
 }
 
 /* DISCOGRAFIA */
