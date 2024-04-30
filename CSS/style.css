@@ -1,7 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Workbench&display=swap');
 
-
+.img-carrousel{
+    height: 950px;
+}
+.carrousel-home{
+    width: 50%;
+    text-align: center;
+}
 
 *{
     padding: 0;
@@ -23,7 +29,7 @@ body{
     background-image: url(../multimedia/consola-1.jpg);
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 1080px;
     color: white;
     display: flex; 
     justify-content: center; /* alineado eje horizontal */
@@ -38,14 +44,15 @@ body{
 }
 
 .biografia{
-    width: 60%;
+    width: 75%;
     background-color: #fc03fc27;
+    margin-top: 10px;
     padding: 20px;
     border: 5px solid #d90368;
 }
 
 .biografia p{
-    margin-bottom: 20px;
+    margin-bottom: px;
 }
 .biografia p::first-letter{
     font-size: 25px;
@@ -58,7 +65,7 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 30px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .biografia a:hover{
@@ -66,11 +73,11 @@ body{
 }
 
 .img-home{
-    background-image: url(../multimedia/gente-fiesta-1.jpg);
+    background-image: url(../multimedia/technoprueba2.png);
     background-size: cover;
     background-position: center;
-    height: 250px;
-    margin-bottom: 15px;
+    height: 560px;
+    margin-bottom: 20px;
 }
 
 /* MAIN */
