@@ -166,9 +166,6 @@ footer{
     padding: 15px;  
     bottom: 0;
     width: 100%;
-   /*  display: flex;
-    justify-content: space-between;
-    align-items: center; */
 } 
 
 footer a{
@@ -194,8 +191,7 @@ footer i{
 
 .mis-redes{
     font-size: 15px;
-    /* display: flex;
-    gap: 10; */
+    text-decoration: underline;
 }
 
 /* FOOTER */
@@ -203,17 +199,29 @@ footer i{
 
 /* CONTACTO */
 
-fieldset{
-    margin: 20px;
+.main-contacto{
+    background-image: url(../multimedia/gente-fiesta-1.jpg);
 }
 
-legend{
-    font-size: 40px;
-    color: #c04cfd;
+.jumbotron-contacto{
+    background-image: url(../multimedia/gente-fiesta-1.jpg);
+}
+
+.form-conteiner{
+    border: 4px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-label{
+    color: white;
+    font-weight: bold;
 }
 
 .parrafoContacto{
     font-size: 20px;
+    text-align: center;
     
 }
 
@@ -272,7 +280,7 @@ legend{
 }
 
 .galeria{
-    background-color: #ffffff; /* #860340 */
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(4,1fr); /* decide las columnas */
     grid-template-rows: repeat(5,180px); /* decide las filas */
@@ -291,12 +299,10 @@ legend{
     background-size: cover; /* ocupa img todo el contenedor */
     background-repeat: no-repeat; /* para que no se repita */
     background-position: center; 
-    /* SE LE APLICA TODOS LOS VALORES AL .ITEM */
     border-radius: 6px;
 }
 
 .item:hover{
-   /*  filter: grayscale(100%); */ /* escala de gris */
     transition: all 0,07; /* transicion */
     transform: scale(1.01);
 }
@@ -414,9 +420,7 @@ legend{
 }
 
 @media(max-width: 300px){
-     .navbar-pc{
+    .navbar-pc{
         display: none;
     }
-
-    
 }
