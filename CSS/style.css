@@ -1,426 +1,409 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Workbench&display=swap');
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@400..900&family=Workbench&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Rubik+Glitch+Pop&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Rubik+Glitch+Pop&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-/* MAIN HOME */
-
-.home{
-    background-image: url(../multimedia/consola-1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 1100px;
-    color: white;
-    display: flex; 
-    justify-content: center; /* alineado eje horizontal */
-    align-items: center; /* alineado eje vertical */
-}
-.h2-home{
-    font-family: "Orbitron", sans-serif;
-    color: #fefdfd;
-    text-decoration: underline;
-    margin-bottom: 20px;
-    font-size: 30px;  
-    text-shadow: 0 0 5px blueviolet;
+/* MAIN HOME INICIO*/
+.home {
+  background-image: url(../multimedia/consola-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 1100px;
+  color: white;
+  display: flex;
+  justify-content: center; /* alineado eje horizontal */
+  align-items: center; /* alineado eje vertical */
 }
 
-.biografia{
-    width: 75%;
-    background-color: #fc03fc27;
-    margin-top: 10px;
-    padding: 20px;
-    border: 5px solid #C287E8;
+.h2-home {
+  font-family: "Orbitron", sans-serif;
+  color: #fefdfd;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-shadow: 0 0 5px blueviolet;
 }
 
-
-.biografia p::first-letter{
-    font-size: 25px;
+.biografia {
+  width: 75%;
+  background-color: rgba(252, 3, 252, 0.1529411765);
+  margin-top: 10px;
+  padding: 20px;
+  border: 5px solid #C287E8;
 }
 
-
-.biografia a{
-    font-family: "Orbitron", sans-serif;
-    background-color: #C287E8;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 4px;
-    text-shadow: 0 0 5px blueviolet;
+.biografia p::first-letter {
+  font-size: 25px;
 }
 
-.biografia a:hover{
-    background-color: black;
+.biografia a {
+  font-family: "Orbitron", sans-serif;
+  background-color: #C287E8;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-shadow: 0 0 5px blueviolet;
 }
 
-.img-home{
-    background-image: url(../multimedia/technoprueba2.png);
-    background-size: cover;
-    background-position: center;
-    height: 560px;
-    margin-bottom: 20px;
+.biografia a:hover {
+  background-color: black;
 }
 
-/* MAIN */
+.img-home {
+  background-image: url(../multimedia/technoprueba2.png);
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  margin-bottom: 20px;
+}
 
+/* MAIN HOME FINAL*/
+/* HEADER INICIO*/
+header {
+  text-align: center;
+  background-color: #C287E8;
+  padding-bottom: 1px;
+}
 
-/* ACA INICIA EL INTENTO DE GALERIA EN EL HOME */
+.titulo-principal {
+  font-family: "Orbitron", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #000000;
+}
 
-/* .section-home{
+.navegador {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: #C287E8;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none; /* sacar decoracion de listas */
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: white;
+}
+
+/* HEADER FINAL*/
+/* FOOTER INICIO*/
+footer {
+  background-color: #C287E8;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: rgb(255, 250, 250);
+  text-decoration: none;
+  font-size: 40px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer i {
+  letter-spacing: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px black;
+}
+
+.parrafo-footer {
+  padding-bottom: 1px;
+  font-size: 17px;
+  font-family: "Mukta", sans-serif;
+}
+
+.mis-redes {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+/* FOOTER FINAL*/
+/* CONTACTO INICIO*/
+.main-contacto {
+  background-image: url(../multimedia/gente-fiesta-1.jpg);
+}
+
+.jumbotron-contacto {
+  background-image: url(../multimedia/gente-fiesta-1.jpg);
+}
+
+.form-conteiner {
+  border: 4px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form-label {
+  color: white;
+  font-weight: bold;
+}
+
+.parrafoContacto {
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* CONTACTO FINAL*/
+/* DISCOGRAFIA INICIO*/
+.jumbotron {
+  background-image: url(../multimedia/ai-generated-8274619_1280.png);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.h1-discografia {
+  font-size: 40px;
+  padding: 20px;
+  text-shadow: 0 0 5px black;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.h2-discografia {
+  text-align: center;
+  background-color: #C287E8;
+  padding: 20px;
+  color: white;
+  text-shadow: 0 0 5px black;
+  /* font-family: "Orbitron", sans-serif; */
+  font-family: "Mukta", sans-serif;
+}
+
+.h3-discografia {
+  color: white;
+  text-shadow: 0 0 5px black;
+  /* font-family: "Orbitron", sans-serif; */
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+}
+
+/* DISCOGRAFIA FINAL*/
+/* GALERIA INICIO*/
+.h2-galeria {
+  /* font-family: "Orbitron", sans-serif; */
+  font-family: "Mukta", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #C287E8;
+  color: #ffffff;
+  text-shadow: 0 0 5px black;
+  font-size: 35px;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.galeria {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* decide las columnas */
+  grid-template-rows: repeat(5, 180px); /* decide las filas */
+  grid-template-areas: "img1 img2 img3 img3" "img1 img2 img5 img6" "img1 img4 img5 img8" "img7 img4 img5 img8" "img7 img4 img5 img8";
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.item {
+  border: 3px solid #020000;
+  background-size: cover; /* ocupa img todo el contenedor */
+  background-repeat: no-repeat; /* para que no se repita */
+  background-position: center;
+  border-radius: 6px;
+}
+
+.item:hover {
+  transition: all 0, 7; /* transicion */
+  transform: scale(1.01);
+}
+
+.item1 {
+  grid-area: img1; /* se le asigna el valor */
+  background-image: url(../multimedia/dark1.JPG);
+  justify-items: right;
+}
+
+.item2 {
+  grid-area: img2;
+  background-image: url(../multimedia/vestidoazulinvertido.JPG);
+}
+
+.item3 {
+  grid-area: img3;
+  background-image: url(../multimedia/puravidahd.JPG);
+}
+
+.item4 {
+  grid-area: img4;
+  background-image: url(../multimedia/guitarra1.JPG);
+}
+
+.item5 {
+  grid-area: img5;
+  background-image: url(../multimedia/outfitnegro1.JPG);
+  background-position: top;
+}
+
+.item6 {
+  grid-area: img6;
+  background-image: url(../multimedia/negro2daptado.png);
+}
+
+.item7 {
+  grid-area: img7;
+  background-image: url(../multimedia/love1.JPG);
+}
+
+.item8 {
+  grid-area: img8;
+  background-image: url(../multimedia/techno1.JPG);
+  background-position: top;
+}
+
+/* GALERIA FINAL */
+/* TRAYECTORIA INICIO*/
+.main-trayectoria {
+  background-color: black;
+}
+
+.h1-trayectoria {
+  font-family: "Work Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.p-trayectoria {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.nright {
+  background-image: url(../multimedia/luchifacha.jfif);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nright2 {
+  background-image: url(../multimedia/techno1.JPG);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.nleft {
+  background-image: url(../multimedia/luchieivan.jfif);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nleft2 {
+  background-image: url(../multimedia/puravidahd.JPG);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+}
+
+/* TRAYECTORIA FINAL */
+/* MEDIA QUERIES */
+@media (max-width: 480px) {
+  .galeria {
+    background-color: #ffffff;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,180px);
-    grid-template-areas: 
-    "objeto1 objeto3 objeto2"
-    "objeto1 objeto3 objeto2"
-    "objeto1 objeto3 objeto2";
-}
-
-.objetos{
-    border: 3px solid rgb(255, 5, 5);
-    background-position: center;
-    background-size: cover;
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 180px);
+    grid-template-areas: "img1 img2" "img1 img3" "img4 img3" "img4 img5" "img8 img5" "img8 img7" "img8 img7" "img6 img7";
+    grid-gap: 5px;
     padding: 10px;
-}
-
-.objeto1{
-    grid-area: objeto1;
-    background-position: center;
-    background-size: cover;
-}
-
-.objeto2{
-    grid-area: objeto2;
-    background-image: url(../multimedia/techno2.JPG);
-    background-size: cover;
-}
-
-
-.objeto3{
-    grid-area: objeto3;
-} */
-
-/* TERMINA GALERIA HOME */
-
-
-/* HEADER */
-
-header{
-    text-align: center;   
-    background-color: #C287E8;
-    padding-bottom: 1px;
-}
-
-.titulo-principal{
-    font-family: "Orbitron", sans-serif;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    font-size: 40px;
-    text-decoration: underline;
-    color: #000000;
-}
-
-
-.navegador{ 
-    font-family: "Orbitron", sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    margin-right: 25px;
-    margin-left: 25px;
-    background-color: #C287E8;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
-}
-
-nav ul li{
-    display: inline-block;
-    list-style-type: none; /* sacar decoracion de listas */
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-a{
-    color: black;
-    text-decoration: none;
-}
-
-header a:hover{
-    color: white;
-}
-
-
-/* HEADER*/
-
-
-/* FOOTER */
-
-footer{
-    background-color: #C287E8;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 15px;  
-    bottom: 0;
-    width: 100%;
-} 
-
-footer a{
-    color: rgb(255, 250, 250);
-    text-decoration: none;
-    font-size: 40px;
-}
-footer a:hover{
-    color: white;
-}
-
-footer i{
-    letter-spacing: 25px;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 5px black;
-}
-
-
-.parrafo-footer{
-    padding-bottom: 1px;
-    font-size: 15px;
-}
-
-.mis-redes{
-    font-size: 15px;
-    text-decoration: underline;
-}
-
-/* FOOTER */
-
-
-/* CONTACTO */
-
-.main-contacto{
-    background-image: url(../multimedia/gente-fiesta-1.jpg);
-}
-
-.jumbotron-contacto{
-    background-image: url(../multimedia/gente-fiesta-1.jpg);
-}
-
-.form-conteiner{
-    border: 4px solid rgb(255, 255, 255);
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.form-label{
-    color: white;
-    font-weight: bold;
-}
-
-.parrafoContacto{
-    font-size: 20px;
-    text-align: center;
-    
-}
-
-/* CONTACTO */
-
-
-/* DISCOGRAFIA */
-
-.jumbotron{
-    background-image: url(../multimedia/ai-generated-8274619_1280.png);
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-}
-.h1-discografia{
-    font-size: 40px;
-    padding: 20px;
-    text-shadow: 0 0 5px black;
-    font-family: "Orbitron", sans-serif;
-    text-align: center;
-    text-decoration: underline;
-
-}
-.h2-discografia{
-    text-align: center;
-    background-color: #C287E8;
-    padding: 20px;
-    color: white;
-    text-shadow: 0 0 5px black;
-    font-family: "Orbitron", sans-serif;
-}
-.h3-discografia{
-    color: white;
-    text-shadow: 0 0 5px black;
-    font-family: "Orbitron", sans-serif;
-    text-align: center;
-    
-}
-
-
-/* DISCOGRAFIA */
-
-
-/* GALERIA */
-
-.h2-galeria{
+  }
+  .h2-galeria {
     font-family: "Orbitron", sans-serif;
     text-align: center;
     background-color: #C287E8;
     color: #ffffff;
     text-shadow: 0 0 5px black;
-    font-size: 35px;
-    border:3px solid black ;
+    font-size: 22px;
+    border: 3px solid black;
     margin: 10px;
     padding: 5px;
-}
-
-.galeria{
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: repeat(4,1fr); /* decide las columnas */
-    grid-template-rows: repeat(5,180px); /* decide las filas */
-    grid-template-areas:
-    "img1 img2 img3 img3"
-    "img1 img2 img5 img6"
-    "img1 img4 img5 img8"
-    "img7 img4 img5 img8"
-    "img7 img4 img5 img8";
-    grid-gap: 5px;
-    padding: 10px;
-    }
-
-.item{
-    border: 3px solid #020000;
-    background-size: cover; /* ocupa img todo el contenedor */
-    background-repeat: no-repeat; /* para que no se repita */
-    background-position: center; 
-    border-radius: 6px;
-}
-
-.item:hover{
-    transition: all 0,07; /* transicion */
-    transform: scale(1.01);
-}
-
-.item1{
-    grid-area: img1; /* se le asigna el valor */
-    background-image: url(../multimedia/dark1.JPG);
-    justify-items: right;
-}
-.item2{
-    grid-area: img2;
-    background-image: url(../multimedia/vestidoazulinvertido.JPG);
-}
-.item3{
-    grid-area: img3;
-    background-image: url(../multimedia/puravidahd.JPG);
-}
-.item4{
-    grid-area: img4;
-    background-image: url(../multimedia/guitarra1.JPG);
-}
-.item5{
-    grid-area: img5;
-    background-image: url(../multimedia/outfitnegro1.JPG);
-    background-position: top;
-    
-}
-.item6{
-    grid-area: img6;
-    background-image: url(../multimedia/negro2daptado.png);
-}
-.item7{
-    grid-area: img7;
-    background-image: url(../multimedia/love1.JPG);
-}
-.item8{
-    grid-area: img8;
-    background-image: url(../multimedia/techno1.JPG);
-    background-position: top;
-}
-
-/* GALERIA */
-
-/* MEDIA QUERIES */
-@media(max-width: 480px){
-    .galeria{
-        background-color: #ffffff;
-        display: grid;
-        grid-template-columns: repeat(2,1fr); 
-        grid-template-rows: repeat(8,180px); 
-        grid-template-areas:
-       "img1 img2"
-       "img1 img3"
-       "img4 img3"
-       "img4 img5"
-       "img8 img5"
-       "img8 img7"
-       "img8 img7"
-       "img6 img7";
-        grid-gap: 5px;
-        padding: 10px;
-        }
-
-        .h2-galeria{
-            font-family: "Orbitron", sans-serif;
-            text-align: center;
-            background-color: #C287E8;
-            color: #ffffff;
-            text-shadow: 0 0 5px black;
-            font-size: 22px;
-            border:3px solid black ;
-            margin: 10px;
-            padding: 5px;
-            text-decoration: underline;
-        }
-
-    .navbar-pc{
-        display: none;
-    }
-
-    .navbar-mobile{
-        background-color: #C287E8;
-        padding-bottom: 1px;
-        border: solid;
-    }
-
-    .titulo-navbar{
-            font-family: "Orbitron", sans-serif;
-            padding-top: 5px;
-            padding-bottom: 20px;
-            font-size: 18px;
-            text-decoration: underline;
-            color: #000000;
-            font-weight: bold;
-    }
-    .nav-a{
-    color: black!important;
+    text-decoration: underline;
+  }
+  .navbar-pc {
+    display: none;
+  }
+  .navbar-mobile {
+    background-color: #C287E8;
+    padding-bottom: 1px;
+    border: solid;
+  }
+  .titulo-navbar {
+    font-family: "Orbitron", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: bold;
+  }
+  .nav-a {
+    color: black !important;
     text-decoration: none;
     font-size: 16px;
     font-family: "Orbitron", sans-serif;
     font-weight: bold;
-    }
+  }
 }
-
-@media(min-width: 480px){
-    .navbar-mobile{
-        display: none;
-    }
+@media (min-width: 480px) {
+  .navbar-mobile {
+    display: none;
+  }
 }
-
-@media(max-width:900px) and (min-width:480px){
-    .navegador{
-        margin: 10px;
-    }
+@media (max-width: 900px) and (min-width: 480px) {
+  .navegador {
+    margin: 10px;
+  }
 }
-
-@media(max-width: 300px){
-    .navbar-pc{
-        display: none;
-    }
-}
+@media (max-width: 300px) {
+  .navbar-pc {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
