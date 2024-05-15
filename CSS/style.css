@@ -345,6 +345,29 @@ footer i {
 
 /* TRAYECTORIA FINAL */
 /* MEDIA QUERIES */
+@media (max-width: 375px) {
+  a.titulo-navbar {
+    font-size: 15px;
+  }
+  .p-trayectoria {
+    font-size: 12px;
+  }
+  .p-tt {
+    font-size: 12px;
+  }
+}
+@media (max-width: 360px) {
+  a.titulo-navbar {
+    font-size: 15px;
+  }
+  .p-trayectoria {
+    font-size: 12px;
+  }
+  .p-tt {
+    font-size: 11px;
+    padding-top: 40px;
+  }
+}
 @media (max-width: 480px) {
   .galeria {
     background-color: #ffffff;
@@ -397,6 +420,11 @@ footer i {
     display: none;
   }
 }
+@media (max-width: 540px) {
+  .p-tt {
+    padding-top: 40px;
+  }
+}
 @media (max-width: 900px) and (min-width: 480px) {
   .navegador {
     margin: 10px;
@@ -404,6 +432,27 @@ footer i {
 }
 @media (max-width: 300px) {
   .navbar-pc {
+    display: none;
+  }
+}
+@media (max-width: 1024px) and (min-width: 700px) {
+  .h1-trayectoria {
+    font-size: 28px;
+  }
+  .p-trayectoria {
+    font-size: 16px;
+  }
+  .p-tt {
+    font-size: 16px;
+    padding: 70px;
+    padding-top: 25px;
+  }
+  .p-tt1 {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .conteiner-mobile {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
