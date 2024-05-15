@@ -341,6 +341,7 @@ footer i{
     color: white;
     text-align: center;
     padding: 15px;
+    padding-bottom: 13px;
     font-size: 14px;
 }
 
@@ -356,7 +357,7 @@ footer i{
     height: 350px;
     background-size: cover;
     background-position: center;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
@@ -388,11 +389,15 @@ footer i{
         font-size: 15px;
     }
     .p-trayectoria{
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    .p-tt{
-        font-size: 12px;
+    .p-tt1{
+        font-size: 13px;
+    }
+
+    .nright2{
+        margin-top: 34px;
     }
 }
 
@@ -460,15 +465,20 @@ footer i{
             padding-bottom: 20px;
             font-size: 18px;
             text-decoration: underline;
-            color: #000000;
+            color: #fffefe!important;
             font-weight: bold;
+            text-shadow: 0 0 5px black;
     }
     .nav-a{
-    color: black!important;
+    color: rgb(250, 245, 245)!important;
     text-decoration: none;
     font-size: 16px;
     font-family: "Orbitron", sans-serif;
     font-weight: bold;
+    text-shadow: 0 0 5px black;
+    }
+    .fa-color{
+        color: white;
     }
 }
 
@@ -493,11 +503,23 @@ footer i{
     }
 }
 
-@media(max-width: 300px){
+@media(max-width: 320px){
     .navbar-pc{
         display: none;
     }
+    .nright2{
+        margin-top: 38px;
+    }
+    .p-tt1{
+        font-size: 11px;
+    }
+    .parrafo-footer{
+        font-size: 14px;
+    }
+
+
 }
+
 
 
 @media(max-width: 1024px) and (min-width: 700px){
