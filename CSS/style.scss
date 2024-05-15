@@ -19,59 +19,102 @@
 /* MAIN HOME INICIO*/
 
 .home{
-    background-image: url(../multimedia/consola-1.jpg);
+    /* background-image: url(../multimedia/binary-797274_1920.jpg); */
     background-size: cover;
     background-position: center;
-    height: 1100px;
+    height: 100%;
     color: white;
-    display: flex; 
-    justify-content: center; /* alineado eje horizontal */
-    align-items: center; /* alineado eje vertical */
+    background-color: black;
 }
-.h2-home{
+.h1-home{
+    padding: 15px;
     font-family: "Orbitron", sans-serif;
     color: #fefdfd;
     text-decoration: underline;
-    margin-bottom: 20px;
     font-size: 30px;  
     text-shadow: 0 0 5px blueviolet;
+    text-align: center;
 }
 
-.biografia{
-    width: 75%;
-    background-color: #fc03fc27;
-    margin-top: 10px;
-    padding: 20px;
-    border: 5px solid #C287E8;
-}
-
-
-.biografia p::first-letter{
-    font-size: 25px;
-}
-
-
-.biografia a{
+.h2-home{
+    padding: 15px;
     font-family: "Orbitron", sans-serif;
-    background-color: #C287E8;
-    color: rgb(255, 255, 255);
+    color: #fefdfd;
+    font-size: 25px;  
+    text-shadow: 0 0 5px blueviolet;
+    text-align: center;
+}
+
+.h3-home{
+    padding: 12px;
+    font-family: "Orbitron", sans-serif;
+    color: #fefdfd;
+    font-size: 15px;  
+    text-shadow: 0 0 5px blueviolet;
+    text-align: center;
+}
+
+.img-mid-home{
+    background-image: url(../multimedia/techno2.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.img-home{
+    background-image: url(../multimedia/dark1.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-home2{
+    background-image: url(../multimedia/guitarra1.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.p-home{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding: 7px;
+}
+
+.p-home2{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding: 1px;
+}
+
+.p-home::first-letter{
+    font-size: 20px;
+}
+
+.link-trayectoria{
+    font-family: "Work Sans", sans-serif;
+    color: rgb(255, 253, 253);
     text-decoration: none;
-    padding: 10px 30px;
     border-radius: 4px;
     text-shadow: 0 0 5px blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-left: 240px;
 }
 
 .biografia a:hover{
     background-color: black;
 }
 
-.img-home{
-    background-image: url(../multimedia/technoprueba2.png);
-    background-size: cover;
-    background-position: center;
-    height: 560px;
-    margin-bottom: 20px;
-}
 
 /* MAIN HOME FINAL*/
 
@@ -344,6 +387,7 @@ footer i{
 
 .main-trayectoria{
     background-color: black;
+    background-image: url(../multimedia/fondonegropintura.jpg);
 }
 
 .h1-trayectoria{
@@ -368,6 +412,7 @@ footer i{
     height: 350px;
     background-size: cover;
     background-position: center;
+    border-radius: 3px;
 }
 
 .nright2{
@@ -377,6 +422,7 @@ footer i{
     background-position: center;
     margin-top: 20px;
     margin-right: 20px;
+    border-radius: 3px;
 }
 
 
@@ -385,6 +431,7 @@ footer i{
     height: 500px;
     background-size: cover;
     background-position: center;
+    border-radius: 3px;
 }
 
 .nleft2{
@@ -393,6 +440,7 @@ footer i{
     background-size: cover;
     background-position: center;
     margin-left: 20px;
+    border-radius: 3px;
 }
 
 /* TRAYECTORIA FINAL */
