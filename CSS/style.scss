@@ -16,6 +16,10 @@
 }
 
 
+/* Variables SASS */
+$colorprincipal: #C287E8;
+
+
 /* MAIN HOME INICIO*/
 
 .home{
@@ -32,7 +36,7 @@
     color: #fefdfd;
     text-decoration: underline;
     font-size: 30px;  
-    text-shadow: 0 0 5px blueviolet;
+    text-shadow: 0 0 5px $colorprincipal;
     text-align: center;
 }
 
@@ -108,7 +112,8 @@
     font-size: 20px;
     font-weight: bold;
     border: 1px solid white;
-    margin-left: 240px;
+    /* margin-left: 240px; */
+    padding: 5px;
 }
 
 .biografia a:hover{
@@ -126,7 +131,7 @@
 
 header{
     text-align: center;   
-    background-color: #C287E8;
+    background-color: $colorprincipal;
     padding-bottom: 1px;
 }
 
@@ -146,7 +151,7 @@ header{
     font-size: 20px;
     margin-right: 25px;
     margin-left: 25px;
-    background-color: #C287E8;
+    background-color: $colorprincipal;
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
@@ -173,7 +178,7 @@ header a:hover{
 /* FOOTER INICIO*/
 
 footer{
-    background-color: #C287E8;
+    background-color: $colorprincipal;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;  
@@ -271,7 +276,7 @@ footer i{
 }
 .h2-discografia{
     text-align: center;
-    background-color: #C287E8;
+    background-color: $colorprincipal;
     padding: 20px;
     color: white;
     text-shadow: 0 0 5px black;
@@ -307,7 +312,7 @@ footer i{
     font-family: "Mukta", sans-serif;
     text-transform: uppercase;
     text-align: center;
-    background-color: #C287E8;
+    background-color: $colorprincipal;
     color: #ffffff;
     text-shadow: 0 0 5px black;
     font-size: 35px;
@@ -499,14 +504,14 @@ footer i{
         grid-template-columns: repeat(2,1fr); 
         grid-template-rows: repeat(8,180px); 
         grid-template-areas:
-       "img1 img2"
-       "img1 img3"
-       "img4 img3"
-       "img4 img5"
-       "img8 img5"
-       "img8 img7"
-       "img8 img7"
-       "img6 img7";
+        "img1 img2"
+        "img1 img3"
+        "img4 img3"
+        "img4 img5"
+        "img8 img5"
+        "img8 img7"
+        "img8 img7"
+        "img6 img7";
         grid-gap: 5px;
         padding: 10px;
         }
@@ -529,7 +534,7 @@ footer i{
     }
 
     .navbar-mobile{
-        background-color: #C287E8;
+        background-color: $colorprincipal;
         padding-bottom: 1px;
         border: solid;
     }
@@ -671,7 +676,7 @@ footer i{
         text-align: center;
         font-family: "Work Sans", sans-serif;
         color: white;
-        text-shadow: 0 0 5px #C287E8;
+        text-shadow: 0 0 5px $colorprincipal;
     }
 
 }
@@ -695,7 +700,61 @@ footer i{
     .p-tpc-invisible{
         display: none;
     }
-    
+
+}
+
+@media(min-width:1280px) and (max-width:1366px){
+    .p-home{
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .p-home2{
+        font-size: 14px;
+    }
+
+    .h1-home{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .h2-home{
+        padding: 5px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    h3.home{
+        font-size: 15px;
+    }
+
+    .link-trayectoria{
+        font-family: "Work Sans", sans-serif;
+        color: rgb(255, 253, 253);
+        text-decoration: none;
+        border-radius: 4px;
+        text-shadow: 0 0 5px blueviolet;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid white;
+    }
+    .img-home{
+        margin-bottom: 30px;
+    }
+
+    .img-home2{
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:1280px) and (max-width:1280px){
+    .img-home{
+        margin-bottom: 45px;
+    }
+
+    .img-home2{
+        margin-bottom: 45px;
+    }
 }
 
 @media(min-width:1366px) and (max-width:1366px){
