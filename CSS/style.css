@@ -14,6 +14,7 @@ body a:hover {
 
 /* MAIN HOME INCIO*/
 .home {
+  background-image: url(../multimedia/consola-1.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -28,7 +29,7 @@ body a:hover {
   text-decoration: underline;
   font-size: 30px;
   text-shadow: 0 0 5px #C287E8;
-  text-align: center;
+  text-align: left;
 }
 
 .h2-home {
@@ -56,11 +57,10 @@ body a:hover {
   height: 650px;
   border: 5px solid #000000;
   border-radius: 10px;
-  margin-top: 10px;
 }
 
 .img-home {
-  background-image: url(../multimedia/dark1.JPG);
+  background-image: url(../multimedia/dark1recort.jpg);
   background-size: cover;
   background-position: center;
   height: 650px;
@@ -105,6 +105,10 @@ body a:hover {
   font-weight: bold;
   border: 1px solid white;
   padding: 5px;
+}
+
+.aboutme {
+  background-color: rgba(2, 2, 2, 0.4588235294);
 }
 
 .biografia a:hover {
@@ -681,9 +685,26 @@ footer i {
   .home-pc {
     display: none;
   }
+  .home-mobile .img-home {
+    display: none;
+  }
+  .h1-home {
+    text-align: center;
+  }
 }
 @media (min-width: 480px) {
   .home-mobile {
     display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-home {
+    background-image: url(../multimedia/dark1recorttablet.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

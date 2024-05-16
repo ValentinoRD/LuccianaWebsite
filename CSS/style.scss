@@ -341,10 +341,37 @@ body{
     .home-pc{
         display: none;
     }
-}
+    .home-mobile{
+
+        .img-home{
+            display: none;
+        }
+    }
+
+    .h1-home{
+        text-align: center;
+    }
+
+ }
+
 
 @media(min-width:480px){
     .home-mobile{
         display: none;
     }
 }
+
+@media(min-width:768px) and (max-width:1024px){
+    
+    .img-home{
+        background-image: url(../multimedia/dark1recorttablet.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 650px;
+        border: 5px solid #000000;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+ }
