@@ -1,0 +1,67 @@
+/* HEADER INICIO*/
+
+header{
+    text-align: center;   
+    background-color: $colorprincipal;
+    padding-bottom: 1px;
+}
+
+.titulo-principal{
+    font-family: "Orbitron", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #000000;
+}
+
+
+.navegador{ 
+    font-family: "Orbitron", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: $colorprincipal;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none; /* sacar decoracion de listas */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+}
+
+
+/* HEADER FINAL*/
+
+
+/* BOTON SUBIR / */
+
+.subir{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 60px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 70%;
+    box-shadow: 0 0 3px 2px white;
+} 
+
+
+/* / BOTON SUBIR */

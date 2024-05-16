@@ -1,0 +1,47 @@
+/* DISCOGRAFIA INICIO*/
+
+.wow.animate__shakeX{
+    animation: infinite-bounce 3s infinite; /* hacer animacion infinita */
+}
+
+.jumbotron{
+    background-image: url(../multimedia/ai-generated-8274619_1280.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.h1-discografia{
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 0 0 5px black;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.h2-discografia{
+    text-align: center;
+    background-color: $colorprincipal;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: "Mukta", sans-serif;
+}
+.h3-discografia{
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: "Mukta", sans-serif;
+    text-align: center;
+    
+}
+
+.h4-discografia{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(249, 5, 216);
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* DISCOGRAFIA FINAL*/

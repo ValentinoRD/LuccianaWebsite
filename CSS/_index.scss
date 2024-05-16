@@ -1,0 +1,99 @@
+/* MAIN HOME INCIO*/
+
+.home{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+.h1-home{
+    padding: 15px;
+    font-family: "Orbitron", sans-serif;
+    color: #fefdfd;
+    text-decoration: underline;
+    font-size: 30px;  
+    text-shadow: 0 0 5px $colorprincipal;
+    text-align: center;
+}
+
+.h2-home{
+    padding: 15px;
+    font-family: "Orbitron", sans-serif;
+    color: #fefdfd;
+    font-size: 25px; 
+    text-shadow: 0 0 5px blueviolet;
+    text-align: center;
+}
+
+.h3-home{
+    padding: 12px;
+    font-family: "Orbitron", sans-serif;
+    color: #fefdfd;
+    font-size: 15px;  
+    text-shadow: 0 0 5px blueviolet;
+    text-align: center;
+}
+
+.img-mid-home{
+    background-image: url(../multimedia/techno2.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.img-home{
+    background-image: url(../multimedia/dark1.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img-home2{
+    background-image: url(../multimedia/guitarra1.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.p-home{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding: 7px;
+}
+
+.p-home2{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding: 1px;
+}
+
+.p-home::first-letter{
+    font-size: 20px;
+}
+
+.link-trayectoria{
+    font-family: "Work Sans", sans-serif;
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    border-radius: 4px;
+    text-shadow: 0 0 5px blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.biografia a:hover{
+    background-color: black;
+}
+
+/* MAIN HOME FINAL*/
