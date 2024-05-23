@@ -33,10 +33,10 @@ body a:hover {
 
 .h2-home {
   padding: 15px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #fefdfd;
   font-size: 25px;
-  text-shadow: 0 0 5px blueviolet;
+  text-shadow: 0 0 5px #C287E8;
   text-align: center;
 }
 
@@ -45,7 +45,7 @@ body a:hover {
   font-family: "Orbitron", sans-serif;
   color: #fefdfd;
   font-size: 15px;
-  text-shadow: 0 0 5px blueviolet;
+  text-shadow: 0 0 5px #C287E8;
   text-align: center;
 }
 
@@ -95,15 +95,16 @@ body a:hover {
 }
 
 .link-trayectoria {
+  background-color: #C287E8;
   font-family: "Work Sans", sans-serif;
-  color: rgb(255, 253, 253);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 4px;
-  text-shadow: 0 0 5px blueviolet;
   font-size: 20px;
   font-weight: bold;
-  border: 1px solid white;
   padding: 5px;
+  margin-left: 15px;
+  text-shadow: 0 0 5px rgb(1, 0, 2);
 }
 
 .aboutme {
@@ -433,6 +434,31 @@ footer i {
 
 /* FOOTER FINAL*/
 /* MEDIA QUERIES */
+@media (max-width: 320px) {
+  .navbar-pc {
+    display: none;
+  }
+  .nright2 {
+    margin-top: 38px;
+  }
+  .p-tt1 {
+    font-size: 11px;
+  }
+  .parrafo-footer {
+    font-size: 14px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-pc {
+    display: none;
+  }
+  .home-mobile .img-home {
+    display: none;
+  }
+  .h1-home {
+    text-align: center;
+  }
+}
 @media (max-width: 360px) {
   a.titulo-navbar {
     font-size: 15px;
@@ -465,6 +491,11 @@ footer i {
   }
   .p-tt1 {
     font-size: 13px;
+  }
+}
+@media (min-width: 480px) {
+  .home-mobile {
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -534,20 +565,6 @@ footer i {
     margin: 10px;
   }
 }
-@media (max-width: 320px) {
-  .navbar-pc {
-    display: none;
-  }
-  .nright2 {
-    margin-top: 38px;
-  }
-  .p-tt1 {
-    font-size: 11px;
-  }
-  .parrafo-footer {
-    font-size: 14px;
-  }
-}
 @media (max-width: 1024px) and (min-width: 700px) {
   .h1-trayectoria {
     font-size: 28px;
@@ -575,6 +592,17 @@ footer i {
   }
 }
 /* MEDIA QUERRIE TRAYECTORIA PC */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-home {
+    background-image: url(../multimedia/dark1recorttablet.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
 @media (min-width: 1024px) and (max-width: 1920px) {
   .nright {
     height: 750px;
@@ -634,6 +662,14 @@ footer i {
     display: none;
   }
 }
+@media (min-width: 1280px) and (max-width: 1280px) {
+  .img-home {
+    margin-bottom: 45px;
+  }
+  .img-home2 {
+    margin-bottom: 45px;
+  }
+}
 @media (min-width: 1280px) and (max-width: 1366px) {
   .p-home {
     padding: 4px;
@@ -655,28 +691,22 @@ footer i {
     font-size: 15px;
   }
   .link-trayectoria {
+    background-color: #C287E8;
     font-family: "Work Sans", sans-serif;
-    color: rgb(255, 253, 253);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 4px;
-    text-shadow: 0 0 5px blueviolet;
     font-size: 20px;
     font-weight: bold;
-    border: 1px solid white;
+    padding: 5px;
+    margin-left: 15px;
+    text-shadow: 0 0 5px rgb(1, 0, 2);
   }
   .img-home {
     margin-bottom: 30px;
   }
   .img-home2 {
     margin-bottom: 30px;
-  }
-}
-@media (min-width: 1280px) and (max-width: 1280px) {
-  .img-home {
-    margin-bottom: 45px;
-  }
-  .img-home2 {
-    margin-bottom: 45px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1366px) {
@@ -684,35 +714,27 @@ footer i {
     padding-top: 40px;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
-  .home-pc {
-    display: none;
-  }
-  .home-mobile .img-home {
-    display: none;
-  }
-  .h1-home {
-    text-align: center;
-  }
-}
-@media (min-width: 480px) {
-  .home-mobile {
-    display: none;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .img-home {
-    background-image: url(../multimedia/dark1recorttablet.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 650px;
-    border: 5px solid #000000;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-}
 @media (min-width: 1920px) and (max-width: 1920px) {
   .h1-home {
-    font-size: 45px;
+    font-size: 50px;
+  }
+  .p-home {
+    font-size: 18px;
+    padding: 11px;
+  }
+  .p-home2 {
+    font-size: 16px;
+  }
+  .link-trayectoria {
+    background-color: #C287E8;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 15px;
+    text-shadow: 0 0 5px rgb(1, 0, 2);
   }
 }/*# sourceMappingURL=style.css.map */

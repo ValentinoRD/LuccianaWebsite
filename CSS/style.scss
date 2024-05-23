@@ -31,6 +31,36 @@ body{
 
 /* MEDIA QUERIES */
 
+@media(max-width: 320px){
+    .navbar-pc{
+        display: none;
+    }
+    .nright2{
+        margin-top: 38px;
+    }
+    .p-tt1{
+        font-size: 11px;
+    }
+    .parrafo-footer{
+        font-size: 14px;
+    }
+}
+
+@media(min-width:320px) and (max-width:480px){
+    .home-pc{
+        display: none;
+    }
+    .home-mobile{
+        .img-home{
+            display: none;
+        }
+    }
+    .h1-home{
+        text-align: center;
+    }
+
+}
+
 @media(max-width:360px){
     a.titulo-navbar{
         font-size: 15px;
@@ -38,12 +68,10 @@ body{
     .p-trayectoria{
         font-size: 12px;
     }
-
     .p-tt{
         font-size: 11px;
         padding-top: 40px;
     }
-
 }
 
 @media(max-width:375px){
@@ -53,16 +81,13 @@ body{
     .p-trayectoria{
         font-size: 13px;
     }
-
     .p-tt1{
         font-size: 13px;
     }
-
     .nright2{
         margin-top: 34px;
     }
 }
-
 
 @media(max-width:390px) and (min-width:390px){
     .nright2{
@@ -73,7 +98,11 @@ body{
     }
 }
 
-
+@media(min-width:480px){
+    .home-mobile{
+        display: none;
+    }
+}
 
 @media(max-width: 480px){
     .galeria{
@@ -150,10 +179,7 @@ body{
     .p-tt{
         padding-top: 40px;
     }
-    
-
-    }
-
+}
 
 @media(max-width:900px) and (min-width:480px){
     .navegador{
@@ -161,34 +187,13 @@ body{
     }
 }
 
-@media(max-width: 320px){
-    .navbar-pc{
-        display: none;
-    }
-    .nright2{
-        margin-top: 38px;
-    }
-    .p-tt1{
-        font-size: 11px;
-    }
-    .parrafo-footer{
-        font-size: 14px;
-    }
-
-
-}
-
-
 @media(max-width: 1024px) and (min-width: 700px){
-
     .h1-trayectoria{
         font-size: 28px;
     }
-
     .p-trayectoria{
         font-size: 16px;
     }
-
     .p-tt{
         font-size: 16px;
         padding: 70px;
@@ -212,6 +217,20 @@ body{
 }
 
 /* MEDIA QUERRIE TRAYECTORIA PC */
+
+@media(min-width:768px) and (max-width:1024px){
+    .img-home{
+        background-image: url(../multimedia/dark1recorttablet.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 650px;
+        border: 5px solid #000000;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+}
+
 @media(min-width:1024px) and (max-width:1920px){
     .nright{
         height: 750px;
@@ -222,14 +241,12 @@ body{
         height: 750px;
         margin-top: 20px;
     }
-    
     .nleft2{
         height: 700px;
         margin-top: 20px;
         margin-left: 0px;
         margin-bottom: 20px;
     }
-
     .nright2{
         height: 700px;
         margin-top: 20px;
@@ -245,7 +262,6 @@ body{
         font-size: 30px;
         padding-top: 20px;
     }
-
     .h2-trayectoria{
         font-size: 25px;
         padding-top: 33px;
@@ -268,59 +284,12 @@ body{
         height: 550px;
         margin-top: 20px;
     }
-    
     .p-tpc{
         font-size: 14px;
         padding: 12px;
     }
-
     .p-tpc-invisible{
         display: none;
-    }
-
-}
-
-@media(min-width:1280px) and (max-width:1366px){
-    .p-home{
-        padding: 4px;
-        font-size: 14px;
-    }
-
-    .p-home2{
-        font-size: 14px;
-    }
-
-    .h1-home{
-        font-size: 30px;
-        padding: 10px;
-    }
-
-    .h2-home{
-        padding: 5px;
-        padding-top: 15px;
-        font-size: 20px;
-    }
-
-    h3.home{
-        font-size: 15px;
-    }
-
-    .link-trayectoria{
-        font-family: "Work Sans", sans-serif;
-        color: rgb(255, 253, 253);
-        text-decoration: none;
-        border-radius: 4px;
-        text-shadow: 0 0 5px blueviolet;
-        font-size: 20px;
-        font-weight: bold;
-        border: 1px solid white;
-    }
-    .img-home{
-        margin-bottom: 30px;
-    }
-
-    .img-home2{
-        margin-bottom: 30px;
     }
 }
 
@@ -328,60 +297,77 @@ body{
     .img-home{
         margin-bottom: 45px;
     }
-
     .img-home2{
         margin-bottom: 45px;
     }
 }
 
+@media(min-width:1280px) and (max-width:1366px){
+    .p-home{
+        padding: 4px;
+        font-size: 14px;
+    }
+    .p-home2{
+        font-size: 14px;
+    }
+    .h1-home{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .h2-home{
+        padding: 5px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    h3.home{
+        font-size: 15px;
+    }
+    .link-trayectoria{
+        background-color: $colorprincipal;
+        font-family: "Work Sans", sans-serif;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        margin-left: 15px;
+        text-shadow: 0 0 5px rgb(1, 0, 2);
+    }
+    .img-home{
+        margin-bottom: 30px;
+    }
+    .img-home2{
+        margin-bottom: 30px;
+    }
+}
 @media(min-width:1366px) and (max-width:1366px){
     .p-tpc{
         padding-top: 40px;
     }
 }
 
-@media(min-width:320px) and (max-width:480px){
-    .home-pc{
-        display: none;
-    }
-    .home-mobile{
-
-        .img-home{
-            display: none;
-        }
-    }
-
-    .h1-home{
-        text-align: center;
-    }
-
-}
-
-
-@media(min-width:480px){
-    .home-mobile{
-        display: none;
-    }
-}
-
-@media(min-width:768px) and (max-width:1024px){
-    
-    .img-home{
-        background-image: url(../multimedia/dark1recorttablet.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 650px;
-        border: 5px solid #000000;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        
-    }
-
-}
-
 @media(min-width:1920px) and (max-width:1920px){
     .h1-home{
-        font-size: 45px;
+        font-size: 50px;
     }
-
+    .p-home{
+        font-size: 18px;
+        padding: 11px;
+    }
+    .p-home2{
+        font-size: 16px;
+    }
+    .link-trayectoria{
+        background-color: $colorprincipal;
+        font-family: "Work Sans", sans-serif;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        margin-left: 15px;
+        text-shadow: 0 0 5px rgb(1, 0, 2);
+    }
 }
