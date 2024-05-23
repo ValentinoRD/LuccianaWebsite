@@ -26,7 +26,6 @@ body a:hover {
   padding: 15px;
   font-family: "Orbitron", sans-serif;
   color: #fefdfd;
-  text-decoration: underline;
   font-size: 30px;
   text-shadow: 0 0 5px #C287E8;
   text-align: left;
@@ -176,12 +175,16 @@ body a:hover {
 
 /* TRAYECTORIA FINAL */
 /* DISCOGRAFIA INICIO*/
+.main-discografia {
+  /* background-color: rgba(244, 244, 244, 0.988); */
+}
+
 .wow.animate__shakeX {
   animation: infinite-bounce 3s infinite; /* hacer animacion infinita */
 }
 
 .jumbotron {
-  background-image: url(../multimedia/ai-generated-8274619_1280.png);
+  background-image: url(../multimedia/upscaled-2x-estudioluchi.jfif);
   height: 400px;
   background-size: cover;
   background-position: center;
@@ -430,12 +433,16 @@ footer i {
 
 /* FOOTER FINAL*/
 /* MEDIA QUERIES */
-@media (max-width: 390px) and (min-width: 390px) {
-  .nright2 {
-    margin-top: 20px;
+@media (max-width: 360px) {
+  a.titulo-navbar {
+    font-size: 15px;
   }
-  .p-tt1 {
-    font-size: 13px;
+  .p-trayectoria {
+    font-size: 12px;
+  }
+  .p-tt {
+    font-size: 11px;
+    padding-top: 40px;
   }
 }
 @media (max-width: 375px) {
@@ -452,16 +459,12 @@ footer i {
     margin-top: 34px;
   }
 }
-@media (max-width: 360px) {
-  a.titulo-navbar {
-    font-size: 15px;
+@media (max-width: 390px) and (min-width: 390px) {
+  .nright2 {
+    margin-top: 20px;
   }
-  .p-trayectoria {
-    font-size: 12px;
-  }
-  .p-tt {
-    font-size: 11px;
-    padding-top: 40px;
+  .p-tt1 {
+    font-size: 13px;
   }
 }
 @media (max-width: 480px) {
@@ -706,5 +709,10 @@ footer i {
     border: 5px solid #000000;
     border-radius: 10px;
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 1920px) and (max-width: 1920px) {
+  .h1-home {
+    font-size: 45px;
   }
 }/*# sourceMappingURL=style.css.map */
