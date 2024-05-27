@@ -32,17 +32,29 @@ body{
 /* MEDIA QUERIES */
 
 @media(max-width: 320px){
+    .h1-trayectoria{
+        font-size: 30px;
+    }
     .navbar-pc{
         display: none;
     }
-    .nright2{
-        margin-top: 38px;
-    }
-    .p-tt1{
-        font-size: 11px;
+    .p-trayectoria{
+        font-size: 15px;
     }
     .parrafo-footer{
         font-size: 14px;
+    }
+    .nleft{
+        height: 400px;
+    }
+    .nleft2{
+        height: 400px;
+    }
+    .nright{
+        height: 400px;
+    }
+    .nright2{
+        height: 400px;
     }
 }
 
@@ -66,10 +78,7 @@ body{
         font-size: 15px;
     }
     .p-trayectoria{
-        font-size: 12px;
-    }
-    .p-tt{
-        font-size: 11px;
+        font-size: 15px;
         padding-top: 40px;
     }
 }
@@ -79,22 +88,13 @@ body{
         font-size: 15px;
     }
     .p-trayectoria{
-        font-size: 13px;
-    }
-    .p-tt1{
-        font-size: 13px;
-    }
-    .nright2{
-        margin-top: 34px;
+        font-size: 15px;
     }
 }
 
 @media(max-width:390px) and (min-width:390px){
-    .nright2{
-        margin-top: 20px;
-    }
-    .p-tt1{
-        font-size: 13px;
+    .p-trayectoria{
+        font-size: 15px;
     }
 }
 
@@ -369,5 +369,11 @@ body{
         padding: 5px;
         margin-left: 15px;
         text-shadow: 0 0 5px rgb(1, 0, 2);
+    }
+    .jumbotron{
+        height: 550px;
+    }
+    .h1-trayectoria{
+        font-size: 38px;
     }
 }

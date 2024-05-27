@@ -80,12 +80,14 @@ body a:hover {
 
 .p-home {
   font-family: "Work Sans", sans-serif;
+  font-size: 15px;
   text-align: center;
   padding: 7px;
 }
 
 .p-home2 {
   font-family: "Work Sans", sans-serif;
+  font-size: 15px;
   text-align: center;
   padding: 1px;
 }
@@ -124,24 +126,24 @@ body a:hover {
 
 .h1-trayectoria {
   font-family: "Work Sans", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: white;
   padding-top: 10px;
 }
 
 .p-trayectoria {
+  text-align: center;
   font-family: "Work Sans", sans-serif;
   color: white;
   text-align: center;
-  padding: 13px;
-  padding-bottom: 13px;
-  font-size: 14px;
+  font-size: 15px;
+  padding-top: 20px;
 }
 
 .nright {
   background-image: url(../multimedia/luchifacha.jfif);
-  height: 350px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   border-radius: 3px;
@@ -149,11 +151,9 @@ body a:hover {
 
 .nright2 {
   background-image: url(../multimedia/techno1.JPG);
-  height: 350px;
+  height: 500px;
   background-size: cover;
   background-position: center;
-  margin-top: 20px;
-  margin-right: 20px;
   border-radius: 3px;
 }
 
@@ -170,14 +170,13 @@ body a:hover {
   height: 500px;
   background-size: cover;
   background-position: center;
-  margin-left: 20px;
   border-radius: 3px;
 }
 
 /* TRAYECTORIA FINAL */
 /* DISCOGRAFIA INICIO*/
 .main-discografia {
-  /* background-color: rgba(244, 244, 244, 0.988); */
+  background-color: black;
 }
 
 .wow.animate__shakeX {
@@ -226,6 +225,10 @@ body a:hover {
 
 /* DISCOGRAFIA FINAL*/
 /* GALERIA INICIO*/
+.main-galeria {
+  background-color: #020000;
+}
+
 .h2-galeria {
   /* font-family: "Orbitron", sans-serif; */
   font-family: "Mukta", sans-serif;
@@ -435,17 +438,29 @@ footer i {
 /* FOOTER FINAL*/
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
+  .h1-trayectoria {
+    font-size: 30px;
+  }
   .navbar-pc {
     display: none;
   }
-  .nright2 {
-    margin-top: 38px;
-  }
-  .p-tt1 {
-    font-size: 11px;
+  .p-trayectoria {
+    font-size: 15px;
   }
   .parrafo-footer {
     font-size: 14px;
+  }
+  .nleft {
+    height: 400px;
+  }
+  .nleft2 {
+    height: 400px;
+  }
+  .nright {
+    height: 400px;
+  }
+  .nright2 {
+    height: 400px;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -464,10 +479,7 @@ footer i {
     font-size: 15px;
   }
   .p-trayectoria {
-    font-size: 12px;
-  }
-  .p-tt {
-    font-size: 11px;
+    font-size: 15px;
     padding-top: 40px;
   }
 }
@@ -476,21 +488,12 @@ footer i {
     font-size: 15px;
   }
   .p-trayectoria {
-    font-size: 13px;
-  }
-  .p-tt1 {
-    font-size: 13px;
-  }
-  .nright2 {
-    margin-top: 34px;
+    font-size: 15px;
   }
 }
 @media (max-width: 390px) and (min-width: 390px) {
-  .nright2 {
-    margin-top: 20px;
-  }
-  .p-tt1 {
-    font-size: 13px;
+  .p-trayectoria {
+    font-size: 15px;
   }
 }
 @media (min-width: 480px) {
@@ -736,5 +739,11 @@ footer i {
     padding: 5px;
     margin-left: 15px;
     text-shadow: 0 0 5px rgb(1, 0, 2);
+  }
+  .jumbotron {
+    height: 550px;
+  }
+  .h1-trayectoria {
+    font-size: 38px;
   }
 }/*# sourceMappingURL=style.css.map */
