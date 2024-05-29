@@ -1,7 +1,7 @@
 /* GALERIA INICIO*/
 
 .main-galeria{
-    background-color: #020000;
+    
 }
 
 .h2-galeria{
@@ -19,7 +19,7 @@
 }
 
 .galeria{
-    background-color: #ffffff;
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(4,1fr); /* decide las columnas */
     grid-template-rows: repeat(5,180px); /* decide las filas */

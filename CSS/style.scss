@@ -70,7 +70,6 @@ body{
     .h1-home{
         text-align: center;
     }
-
 }
 
 @media(max-width:360px){
@@ -81,6 +80,9 @@ body{
         font-size: 15px;
         padding-top: 40px;
     }
+    .parrafo-footer{
+        font-size: 14px;
+    }
 }
 
 @media(max-width:375px){
@@ -90,10 +92,19 @@ body{
     .p-trayectoria{
         font-size: 15px;
     }
+    .parrafo-footer{
+        font-size: 15px;
+    }
+    .mis-redes{
+        font-size: 14px;
+    }
 }
 
 @media(max-width:390px) and (min-width:390px){
     .p-trayectoria{
+        font-size: 15px;
+    }
+    .parrafo-footer{
         font-size: 15px;
     }
 }
@@ -106,7 +117,7 @@ body{
 
 @media(max-width: 480px){
     .galeria{
-        background-color: #ffffff;
+        background-color: black;
         display: grid;
         grid-template-columns: repeat(2,1fr); 
         grid-template-rows: repeat(8,180px); 
@@ -181,6 +192,12 @@ body{
     }
 }
 
+@media(min-width:660px) and (max-width:700px){
+    .img-home{
+        background-image: url(../multimedia/dark1recortceluacostado.jpg);
+    }
+}
+
 @media(max-width:900px) and (min-width:480px){
     .navegador{
         margin: 10px;
@@ -227,7 +244,10 @@ body{
         border: 5px solid #000000;
         border-radius: 10px;
         margin-bottom: 10px;
-        
+    }
+    .img-home2{
+        background-position: top;
+        background-image: url(../multimedia/guitarra1recorte1024.jpg);
     }
 }
 
