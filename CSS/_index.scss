@@ -12,7 +12,7 @@
     padding: 15px;
     font-family: "Orbitron", sans-serif;
     color: #fefdfd;
-    font-size: 30px;  
+    font-size: 32px;  
     text-shadow: 0 0 5px $colorprincipal;
     text-align: left;
 }
@@ -64,7 +64,6 @@
     margin-bottom: 10px;
 }
 .p-home{
-    font-family: "Work Sans", sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 7px;
@@ -75,6 +74,12 @@
     font-size: 15px;
     text-align: center;
     padding: 1px;
+}
+
+.p-home3{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    font-size: 16px;
 }
 
 .p-home::first-letter{
