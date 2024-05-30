@@ -78,7 +78,6 @@ body{
     }
     .p-trayectoria{
         font-size: 15px;
-        padding-top: 40px;
     }
     .parrafo-footer{
         font-size: 14px;
@@ -237,14 +236,6 @@ body{
     .p-trayectoria{
         font-size: 16px;
     }
-    .p-tt{
-        font-size: 16px;
-        padding: 70px;
-        padding-top: 25px;
-    }
-    .p-tt1{
-        padding-top: 30px;
-    }
 }
 
 @media(min-width:1024px){
@@ -340,12 +331,15 @@ body{
         height: 550px;
         margin-top: 20px;
     }
-    .p-tpc{
-        font-size: 14px;
-        padding: 12px;
+    .p-trayectoria{
+        font-size: 15px;
+        margin: 1px;
+        margin-bottom: 1px;
     }
-    .p-tpc-invisible{
-        display: none;
+    .p-trayectoria2{
+        font-size: 15px;
+        margin-bottom: 1px;
+        margin-top: 10px;
     }
 }
 
@@ -394,6 +388,16 @@ body{
         margin-left: 15px;
         text-shadow: 0 0 5px rgb(1, 0, 2);
     }
+    .p-trayectoria{
+        font-size: 16px;
+        margin: 1px;
+        margin-bottom: 1px;
+    }
+    .p-trayectoria2{
+        font-size: 16px;
+        margin-bottom: 1px;
+        margin-top: 10px;
+    }
 }
 
 @media(min-width:1366px) and (max-width:1366px){
@@ -404,8 +408,15 @@ body{
     .h1-home{
         font-size: 50px;  
     }
-    .p-tpc{
-        padding-top: 40px;
+    .p-trayectoria{
+        font-size: 17px;
+        margin: 1px;
+        margin-bottom: 1px;
+    }
+    .p-trayectoria2{
+        font-size: 17px;
+        margin-bottom: 1px;
+        margin-top: 10px;
     }
 }
 
@@ -437,5 +448,15 @@ body{
     }
     .h1-trayectoria{
         font-size: 38px;
+    }
+    .p-trayectoria{
+        font-size: 18px;
+        margin: 25px;
+        margin-bottom: 100px;
+    }
+    .p-trayectoria2{
+        font-size: 18px;
+        margin-bottom: 18px;
+        margin-top: 30px;
     }
 }

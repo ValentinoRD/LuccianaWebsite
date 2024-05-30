@@ -136,7 +136,7 @@ body a:hover {
 /* TRAYECTORIA INICIO*/
 .main-trayectoria {
   background-color: black;
-  background-image: url(../multimedia/fondonegropintura.jpg);
+  background-image: url(../multimedia/consola-1.jpg);
 }
 
 .h1-trayectoria {
@@ -154,6 +154,17 @@ body a:hover {
   text-align: center;
   font-size: 15px;
   padding-top: 20px;
+  margin: 10px;
+}
+
+.p-trayectoria2 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  margin: 10px;
 }
 
 .nright {
@@ -491,7 +502,6 @@ footer i {
   }
   .p-trayectoria {
     font-size: 15px;
-    padding-top: 40px;
   }
   .parrafo-footer {
     font-size: 14px;
@@ -629,14 +639,6 @@ footer i {
   .p-trayectoria {
     font-size: 16px;
   }
-  .p-tt {
-    font-size: 16px;
-    padding: 70px;
-    padding-top: 25px;
-  }
-  .p-tt1 {
-    padding-top: 30px;
-  }
 }
 @media (min-width: 1024px) {
   .container-mobile {
@@ -725,12 +727,15 @@ footer i {
     height: 550px;
     margin-top: 20px;
   }
-  .p-tpc {
-    font-size: 14px;
-    padding: 12px;
+  .p-trayectoria {
+    font-size: 15px;
+    margin: 1px;
+    margin-bottom: 1px;
   }
-  .p-tpc-invisible {
-    display: none;
+  .p-trayectoria2 {
+    font-size: 15px;
+    margin-bottom: 1px;
+    margin-top: 10px;
   }
 }
 @media (min-width: 1280px) and (max-width: 1280px) {
@@ -778,6 +783,16 @@ footer i {
     margin-left: 15px;
     text-shadow: 0 0 5px rgb(1, 0, 2);
   }
+  .p-trayectoria {
+    font-size: 16px;
+    margin: 1px;
+    margin-bottom: 1px;
+  }
+  .p-trayectoria2 {
+    font-size: 16px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1366px) {
   .p-home {
@@ -787,8 +802,15 @@ footer i {
   .h1-home {
     font-size: 50px;
   }
-  .p-tpc {
-    padding-top: 40px;
+  .p-trayectoria {
+    font-size: 17px;
+    margin: 1px;
+    margin-bottom: 1px;
+  }
+  .p-trayectoria2 {
+    font-size: 17px;
+    margin-bottom: 1px;
+    margin-top: 10px;
   }
 }
 @media (min-width: 1920px) and (max-width: 1920px) {
@@ -819,5 +841,15 @@ footer i {
   }
   .h1-trayectoria {
     font-size: 38px;
+  }
+  .p-trayectoria {
+    font-size: 18px;
+    margin: 25px;
+    margin-bottom: 100px;
+  }
+  .p-trayectoria2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
