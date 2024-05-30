@@ -113,8 +113,18 @@ body a:hover {
   background-color: rgba(2, 2, 2, 0.4588235294);
 }
 
-.biografia a:hover {
-  background-color: black;
+.link-discografia {
+  background-color: #C287E8;
+  font-family: "Work Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgb(1, 0, 2);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 /* MAIN HOME FINAL*/
@@ -185,7 +195,7 @@ body a:hover {
 
 .jumbotron {
   background-image: url(../multimedia/upscaled-2x-estudioluchi.jfif);
-  height: 400px;
+  height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -218,7 +228,7 @@ body a:hover {
 .h4-discografia {
   color: rgb(255, 255, 255);
   text-shadow: 0 0 5px rgb(249, 5, 216);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding: 20px;
 }
@@ -758,7 +768,7 @@ footer i {
     text-shadow: 0 0 5px rgb(1, 0, 2);
   }
   .jumbotron {
-    height: 550px;
+    height: 650px;
   }
   .h1-trayectoria {
     font-size: 38px;
