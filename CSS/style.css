@@ -202,7 +202,7 @@ body a:hover {
 /* TRAYECTORIA FINAL */
 /* DISCOGRAFIA INICIO*/
 .main-discografia {
-  background-color: black;
+  background-image: url(../multimedia/consola-1.jpg);
 }
 
 .wow.animate__shakeX {
@@ -251,22 +251,32 @@ body a:hover {
 
 /* DISCOGRAFIA FINAL*/
 /* GALERIA INICIO*/
-.h2-galeria {
-  /* font-family: "Orbitron", sans-serif; */
+.main-galeria {
+  background-image: url(../multimedia/consola-1.jpg);
+}
+
+.div-galeria {
   font-family: "Mukta", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  background-color: #C287E8;
   color: #ffffff;
   text-shadow: 0 0 5px black;
   font-size: 35px;
   border: 3px solid black;
+}
+.div-galeria h1 {
   margin: 10px;
   padding: 5px;
+  font-family: "Mukta", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0 0 5px black;
+  font-size: 35px;
+  background-color: #C287E8;
 }
 
 .galeria {
-  background-color: black;
+  /* background-color: black; */
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* decide las columnas */
   grid-template-rows: repeat(5, 180px); /* decide las filas */

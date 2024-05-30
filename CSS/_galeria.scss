@@ -1,25 +1,31 @@
 /* GALERIA INICIO*/
 
 .main-galeria{
-    
+    background-image: url(../multimedia/consola-1.jpg);
 }
 
-.h2-galeria{
-    /* font-family: "Orbitron", sans-serif; */
+.div-galeria{
     font-family: "Mukta", sans-serif;
     text-transform: uppercase;
     text-align: center;
-    background-color: $colorprincipal;
     color: #ffffff;
     text-shadow: 0 0 5px black;
     font-size: 35px;
     border:3px solid black ;
-    margin: 10px;
-    padding: 5px;
+    h1{
+        margin: 10px;
+        padding: 5px;
+        font-family: "Mukta", sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-shadow: 0 0 5px black;
+        font-size: 35px;
+        background-color: $colorprincipal;
+    }
 }
 
 .galeria{
-    background-color: black;
+    /* background-color: black; */
     display: grid;
     grid-template-columns: repeat(4,1fr); /* decide las columnas */
     grid-template-rows: repeat(5,180px); /* decide las filas */
