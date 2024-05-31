@@ -217,7 +217,7 @@ body a:hover {
 }
 
 .wow.animate__shakeX {
-  animation: infinite-bounce 3s infinite; /* hacer animacion infinita */
+  animation: infinite-bounce 3s infinite;
 }
 
 .jumbotron {
@@ -234,6 +234,7 @@ body a:hover {
   font-family: "Orbitron", sans-serif;
   text-align: center;
   text-decoration: underline;
+  text-shadow: 0 0 5px #C287E8;
 }
 
 .h2-discografia {

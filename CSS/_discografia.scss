@@ -6,7 +6,7 @@
 
 
 .wow.animate__shakeX{
-    animation: infinite-bounce 3s infinite; /* hacer animacion infinita */
+    animation: infinite-bounce 3s infinite;
 }
 
 .jumbotron{
@@ -22,7 +22,7 @@
     font-family: "Orbitron", sans-serif;
     text-align: center;
     text-decoration: underline;
-
+    text-shadow: 0 0 5px $colorprincipal;
 }
 .h2-discografia{
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
