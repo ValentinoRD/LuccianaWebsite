@@ -9,8 +9,9 @@
     font-family: "Work Sans", sans-serif;
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: #fefdff;
     padding-top: 10px;
+    text-shadow: 0 0 5px $colorprincipal;
 }
 
 .p-trayectoria{
@@ -63,6 +64,15 @@
     background-size: cover;
     background-position: center;
     border-radius: 3px;
+}
+.h2-trayectoria-tablet{
+    font-size: 25px;
+        padding-top: 33px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-family: "Work Sans", sans-serif;
+        color: white;
+        text-shadow: 0 0 5px $colorprincipal;
 }
 
 /* TRAYECTORIA FINAL */
