@@ -140,6 +140,10 @@ body a:hover {
   justify-content: center;
 }
 
+.icono-contacto {
+  font-size: 24px;
+}
+
 /* MAIN HOME FINAL*/
 /* TRAYECTORIA INICIO*/
 .main-trayectoria {
@@ -228,7 +232,7 @@ body a:hover {
 }
 
 .jumbotron {
-  background-image: url(../multimedia/upscaled-2x-estudioluchi.jfif);
+  background-image: url(../multimedia/2x-escritorioluchiv2.jfif);
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -897,7 +901,7 @@ footer i {
     text-shadow: 0 0 5px rgb(1, 0, 2);
   }
   .jumbotron {
-    height: 650px;
+    height: 1000px;
   }
   .h1-trayectoria {
     font-size: 38px;
