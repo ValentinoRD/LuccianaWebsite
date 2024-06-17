@@ -221,6 +221,10 @@ body a:hover {
   text-shadow: 0 0 5px #C287E8;
 }
 
+.p-trayectoria::first-letter {
+  font-size: 22px;
+}
+
 /* TRAYECTORIA FINAL */
 /* DISCOGRAFIA INICIO*/
 .main-discografia {
@@ -864,7 +868,7 @@ footer i {
     font-size: 17px;
   }
   .h1-home {
-    font-size: 50px;
+    font-size: 55px;
   }
   .p-trayectoria {
     font-size: 17px;
