@@ -806,6 +806,12 @@ footer i {
     margin-bottom: 1px;
     margin-top: 10px;
   }
+  .p-home {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+  }
 }
 @media (min-width: 1280px) and (max-width: 1280px) {
   .h1-home {
@@ -892,6 +898,7 @@ footer i {
   }
   .p-home2 {
     font-size: 16px;
+    padding: 4px;
   }
   .link-trayectoria {
     background-color: #C287E8;
