@@ -14,7 +14,7 @@ body a:hover {
 
 /* MAIN HOME INCIO*/
 .home {
-  background-image: url(../multimedia/consola-1.jpg);
+  background-image: url(../multimedia/consola-2.jpeg);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -145,11 +145,24 @@ body a:hover {
   font-size: 24px;
 }
 
+/* .video-container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container video{
+    width: 2000px;
+} */
 /* MAIN HOME FINAL*/
 /* TRAYECTORIA INICIO*/
 .main-trayectoria {
   background-color: black;
-  background-image: url(../multimedia/consola-1.jpg);
+  background-image: url(../multimedia/consola-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: black;
 }
 
 .h1-trayectoria {
@@ -229,7 +242,11 @@ body a:hover {
 /* TRAYECTORIA FINAL */
 /* DISCOGRAFIA INICIO*/
 .main-discografia {
-  background-image: url(../multimedia/consola-1.jpg);
+  background-image: url(../multimedia/consola-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: black;
 }
 
 .wow.animate__shakeX {
@@ -277,10 +294,19 @@ body a:hover {
   padding: 20px;
 }
 
+/* Evita el scroll horizontal */
+body {
+  overflow-x: hidden;
+}
+
 /* DISCOGRAFIA FINAL*/
 /* GALERIA INICIO*/
 .main-galeria {
-  background-image: url(../multimedia/consola-1.jpg);
+  background-image: url(../multimedia/consola-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: black;
 }
 
 .div-galeria {
@@ -496,6 +522,27 @@ footer i {
 
 /* FOOTER FINAL*/
 /* MEDIA QUERIES */
+@media (min-width: 320px) and (max-width: 344px) {
+  footer {
+    padding: 8px;
+  }
+  .parrafo-footer {
+    font-size: 12px;
+    padding: 0 2px;
+    word-break: break-word;
+  }
+  .mis-redes {
+    font-size: 12px;
+  }
+  .redes-footer a {
+    font-size: 20px;
+    margin: 0 4px;
+  }
+  footer i {
+    letter-spacing: 10px;
+    font-size: 18px;
+  }
+}
 @media (max-width: 320px) {
   .h1-trayectoria {
     font-size: 30px;
@@ -934,4 +981,13 @@ footer i {
   .nleft2 {
     height: 750px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+.navbar-toggler {
+  border: 2px solid #fff !important;
+}
+
+.navbar-toggler .fa-bars,
+.navbar-toggler .fa-sharp {
+  color: #fff;
+}
